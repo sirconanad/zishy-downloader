@@ -49,7 +49,7 @@ By gallery number (downloads the zip first):
 From an already-downloaded zip file:
 
 ```bash
-./zishy.py ./1348642804-marie-gaudin-texas-tittlemouse-1.zip
+./zishy.py ./<account-id>2804-marie-gaudin-texas-tittlemouse-1.zip
 ```
 
 ### Options
@@ -75,6 +75,6 @@ For gallery `2804`, the script produces:
 If the gallery has a bonus video, it is saved as `<album-id>-<basename>.mp4`
 (for example `2800-jamila_sedano_pastel.mp4`).
 
-The `134864` prefix on downloaded zip files (your account id) is stripped
-automatically. The session is saved to the cookie file and reused; if the
-session expires, the script logs in again automatically.
+The account-id prefix on downloaded zip files is stripped automatically. The
+session is saved to the cookie file and reused; if the session expires, the
+script logs in again automatically.

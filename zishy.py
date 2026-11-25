@@ -8,7 +8,7 @@ Requires a paid subscription (logs in with ZISHY_EMAIL / ZISHY_PASSWORD).
 
 Usage:
     ./zishy.py 2804
-    ./zishy.py /path/to/1348642804-marie-gaudin-texas-tittlemouse-1.zip
+    ./zishy.py /path/to/<account-id>2804-marie-gaudin-texas-tittlemouse-1.zip
 """
 
 import argparse
